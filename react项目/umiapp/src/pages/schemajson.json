@@ -1,0 +1,168 @@
+{
+    "form": {
+        "labelCol": 6,
+        "wrapperCol": 12
+    },
+    "schema": {
+        "type": "object",
+        "properties": {
+            "nfb48rrlxn0": {
+                "type": "void",
+                "x-component": "FormGrid",
+                "x-validator": [],
+                "x-component-props": {
+                    "style": {
+                        "display": "flex",
+                        "flexWrap": "wrap",
+                        "alignContent": "center",
+                        "flexDirection": "row"
+                    }
+                },
+                "x-designable-id": "nfb48rrlxn0",
+                "x-index": 0,
+                "properties": {
+                    "ic5cy4ilrt5": {
+                        "type": "void",
+                        "x-component": "FormGrid.GridColumn",
+                        "x-validator": [],
+                        "x-component-props": {
+                            "style": {
+                                "width": "230px",
+                                "height": "35px"
+                            }
+                        },
+                        "x-designable-id": "ic5cy4ilrt5",
+                        "x-index": 0,
+                        "properties": {
+                            "searchText": {
+                                "title": "",
+                                "x-decorator": "FormItem",
+                                "x-component": "Select",
+                                "x-validator": [],
+                                "x-component-props": {
+                                    "allowClear": true,
+                                    "placeholder": "项目ID，名称，别名",
+                                    "style": {
+                                        "width": "230px"
+                                    }
+                                },
+                                "x-decorator-props": {
+                                    "wrapperWidth": "inherit",
+                                    "labelWidth": "inherit",
+                                    "fullness": false,
+                                    "wrapperWrap": false,
+                                    "labelWrap": false,
+                                    "inset": false,
+                                    "bordered": true,
+                                    "style": {
+                                        "width": "230px"
+                                    }
+                                },
+                                "name": "searchText",
+                                "x-designable-id": "e4xzyajxb9u",
+                                "x-index": 0
+                            }
+                        }
+                    },
+                    "9v24g3wa1p3": {
+                        "type": "void",
+                        "x-component": "FormGrid.GridColumn",
+                        "x-validator": [],
+                        "x-component-props": {},
+                        "x-designable-id": "9v24g3wa1p3",
+                        "x-index": 1,
+                        "properties": {
+                            "cityName": {
+                                "title": "",
+                                "x-decorator": "FormItem",
+                                "x-component": "Select",
+                                "x-validator": [],
+                                "x-component-props": {
+                                    "placeholder": "城市"
+                                },
+                                "x-decorator-props": {
+                                    "style": {
+                                        "width": "200px"
+                                    }
+                                },
+                                "name": "cityName",
+                                "x-designable-id": "1g0mu96hnwu",
+                                "x-index": 0
+                            }
+                        }
+                    },
+                    "area": {
+                        "title": "",
+                        "x-decorator": "FormItem",
+                        "x-component": "Select",
+                        "x-validator": [],
+                        "x-component-props": {
+                            "placeholder": "区域"
+                        },
+                        "x-decorator-props": {
+                            "style": {
+                                "width": "200px"
+                            }
+                        },
+                        "name": "area",
+                        "x-designable-id": "kxtch01n08c",
+                        "x-index": 2
+                    },
+                    "circle": {
+                        "title": "",
+                        "x-decorator": "FormItem",
+                        "x-component": "Select",
+                        "x-validator": [],
+                        "x-component-props": {
+                            "placeholder": "商圈"
+                        },
+                        "x-decorator-props": {
+                            "style": {
+                                "width": "200px"
+                            }
+                        },
+                        "name": "circle",
+                        "x-designable-id": "bwvxuaoctse",
+                        "x-index": 3
+                    },
+                    "level": {
+                        "title": "",
+                        "x-decorator": "FormItem",
+                        "x-component": "Select",
+                        "x-validator": [],
+                        "x-component-props": {
+                            "placeholder": "评级"
+                        },
+                        "x-decorator-props": {
+                            "style": {
+                                "width": "150px"
+                            }
+                        },
+                        "name": "level",
+                        "x-designable-id": "mlesfp2fze0",
+                        "x-index": 4
+                    },
+                    "abskp5yn5wr": {
+                        "type": "void",
+                        "x-component": "FormGrid.GridColumn",
+                        "x-validator": [],
+                        "x-component-props": {},
+                        "x-designable-id": "abskp5yn5wr",
+                        "x-index": 5,
+                        "properties": {
+                            "azvhmwachqo": {
+                                "type": "void",
+                                "x-component": "SubmitButton",
+                                "x-component-props": {},
+                                "x-designable-id": "azvhmwachqo",
+                                "x-index": 0
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "designableType": "form-root",
+        "x-designable-id": "xw93lckmlnv"
+    }
+}
