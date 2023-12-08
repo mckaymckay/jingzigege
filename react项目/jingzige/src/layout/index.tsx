@@ -9,7 +9,10 @@ export default function IndexPage(props: any) {
   return (
     <div>
       <Button onClick={() => toHome()}>首页</Button>
-      <div>{props.children}</div>
+      <div style={{
+        margin: 'auto 10%',
+        width: '80 %'
+      }}>{props.children}</div>
     </div>
   )
 }

@@ -6,7 +6,6 @@ import { pathLists } from '@/routes/path'
 
 export default function Index() {
   const handleClickGame = (e: DemoListsType) => {
-    console.log(20, e.url)
     window.location.href = e?.url
   }
   return (
@@ -16,7 +15,7 @@ export default function Index() {
       <ul>
         {pathLists.map(v => {
           return (
-            <li key={v?.id} className={styles.demo_item} onClick={() => handleClickGame(v)} style={{ width: '150px' }}>
+            <li key={v?.id} className={styles.demo_item} onClick={() => handleClickGame(v)} >
               {v.name}
             </li>
           )
