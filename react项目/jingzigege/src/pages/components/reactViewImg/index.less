@@ -1,0 +1,81 @@
+.img_cell {
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+  float: left;
+  position: relative;
+  background-repeat: 'no-repeat';
+  background-size: 'cover';
+  margin: 0px 10px 5px 0px;
+  flex-shrink: 0;
+
+  :global{
+    .ant-image-img{
+      object-fit: contain;
+    }
+  }
+  .img {
+    width: 100%;
+    height: 100%;
+  }
+  .download_icon{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    opacity: 0.9;
+    background-color: white;
+
+    svg{
+      width: 15px;
+      height: 15px;
+      color:rgb(24, 144, 255)
+    }
+  }
+  .del_icon{
+    position: absolute;
+    top: 0px;
+    right: 0;
+    opacity: 0.9;
+    background-color: white;
+    border-radius: 100px;
+    svg{
+      width: 15px;
+      height: 15px;
+      color:rgb(156, 154, 154)
+    }
+  }
+
+    .mark_icon{
+      width: 15px;
+      height: 15px;
+      position: absolute;
+      bottom: 0px;
+      right: 0;
+      background-color: white;
+      border: 1px solid gray;
+      display: grid;
+      align-items: center;
+      cursor: pointer;
+
+      svg{
+        color:  #52c41a;
+      }
+  }
+}
+.display_img_modal{
+  :global{
+    .ant-image-img{
+      object-fit: contain;
+    }
+  }
+}
+.preview_img_text{
+  width: 50%;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 25%;
+  line-height: 44px;
+  border-radius: 5px;
+}
+
